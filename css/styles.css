@@ -4,6 +4,7 @@
   --color-primary: #4d41c0;
   --bg-gray: #e8e8e8;
   --white: #fff;
+  --text-titulo: #4A4A4A;
 }
 
 * {
@@ -19,6 +20,7 @@ h1, h2, h3, h4, h5, h6{
   margin: 0px;
 }
 
+/*BARRA DE NAVEGAÇÃO*/
 header{ 
   background: var(--color-primary);
   color: var(--white);
@@ -48,12 +50,61 @@ nav a{
   text-align: center;
 }
 
-a.a:hover{
+a, a:hover{
   text-decoration: none;
   color: unset;
 }
 
 .dsmovie-contact{
   display: flex;
-  align-items: initial;
+  align-items: center;
+}
+
+/*CONTAINER PRINCIPAL*/
+
+#dsmovie-cards-list{
+  padding: 40px, 0px;
+  margin-top: 130px;
+}
+
+.dsmovie-cards{
+  width: 260px;
+  height: 349px;
+  left: 348px;
+  top: 130px;
+}
+
+.dsmovie-cards img{
+  width: 100%;
+  border-radius: 8px, 8px, 0, 0;
+}
+
+.dsmovie-cards-decription{
+  background-color: var(--white);
+  padding-top: 10px;
+  padding-bottom:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0, 0, 8px, 8px;
+}
+
+.dsmovie-cards-decription h3{
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 700px;
+}
+
+.dsmovie-a, .dsmovie-a:hover{
+  width: 180px;
+  height: 40px;
+  background-color: var(--color-primary);
+  color: var(--white);
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
 }
