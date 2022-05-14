@@ -6,6 +6,8 @@
   --text-light-gray: #AAAAAA;
   --white: #fff;
   --text-titulo: #4A4A4A;
+  --star-gold: #FFBB3A;
+  ;
 }
 
 * {
@@ -64,11 +66,11 @@ a, a:hover{
 /*CONTAINER PRINCIPAL*/
 
 #dsmovie-cards-list{
-  padding: 40px, 0px;
-  margin-top: 130px;
+  padding: 40px, 10px;
 }
 
 .dsmovie-cards{
+  margin: 40px;
   width: 260px;
   height: 349px;
   left: 348px;
@@ -82,13 +84,13 @@ a, a:hover{
 
 .dsmovie-cards-decription{
   background-color: var(--white);
-  padding-left: 2px;
-  padding-top: 10px;
-  padding-bottom:20px;
+  padding:10px, 20px, 20px, 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   border-radius: 0, 0, 8px, 8px;
+  height: 190px;
 }
 
 .dsmovie-cards-decription h3{
@@ -112,6 +114,30 @@ a, a:hover{
   margin: 5px;
   justify-content: center;
   border-radius: 4px;
+}
+
+.dsmovie-cards-decription-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dsmovie-cards-decription-button h4{
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--star-gold);
+}
+
+.dsmovie-cards-decription-button p{
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--text-light-gray);
+  margin-bottom: 10px;
+}
+
+.dsmovie-cards-decription-button img{
+  width: 22px;
+
 }
 
 /*container of the form*/
