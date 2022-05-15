@@ -69,39 +69,38 @@ nav a, nav a:hover{
 /*CONTAINER PRINCIPAL*/
 
 #dsmovie-cards-list{
-  padding: 40px, 10px;
-  width: 100%;
+  padding: 20px 10px;
   display: flex;
   flex-direction:column;
   align-items: center;
-  background-color: var(--bg-gray);
+  justify-items: center;
 }
 
 .dsmovie-cards{
-  padding-top: 40px;
+  margin-top: 15px;
   width: 260px;
+  height: 336.34px;
   display: flex;
   flex-direction:column;
   align-items: center;
-  
   border-radius: 8px;
 }
 
 .dsmovie-cards img{
   width: 100%;
-
+  border-radius: 8px 8px 0 0;
 }
 
 .dsmovie-cards-decription{
   background-color: var(--white);
-  padding: 15px;px, 20px, 20px, 20px;
+  padding: 20px 20px 20px 20px;
   width: 260px;
-  height: 202.66px;
+  height: 190px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  border-radius: 0, 0, 8px, 8px;
+  justify-content: center;
+  border-radius: 0 0 8px 8px;
 }
 
 .dsmovie-cards-decription h3{
@@ -110,6 +109,7 @@ nav a, nav a:hover{
   font-size: 14px;
   font-weight: 700px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .dsmovie-a, .dsmovie-a:hover{
@@ -123,54 +123,64 @@ nav a, nav a:hover{
   align-items: center;
   margin: 10px;
   justify-content: center;
+  margin: 10px;
   border-radius: 4px;
 }
 
 .dsmovie-cards-decription-button{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; 
 }
 
 .dsmovie-cards-decription-button h4{
   font-size: 16px;
   font-weight: 700;
   color: var(--star-gold);
-  margin-top: 10px;
+  margin-bottom: 3px;
 }
 
 .dsmovie-cards-decription-button p{
   font-size: 10px;
-  font-weight: 400;
+  font-weight: 400px;
   color: var(--text-light-gray);
   margin-bottom: 10px;
 }
 
 .dsmovie-cards-decription-button img{
   width: 22px;
-
 }
 
 /*container of the form*/
 #dsmovie-form-section{
-  padding-top: 40px;
+  margin: 0%;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  background-color: var(--bg-gray);
 }
 
 .dsmovie-form-container{
-  width: 100%;
+  max-width: 384px;
+  max-height: 544px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  border-radius: 8px;
 }
 
 .dsmovie-form{
   padding: 5px;
-  max-height: 620px;
-  max-width: 480px;
-  min-width: 140px;
-  border-radius: 8px;
+  max-width: 384px;
+  max-height: 544x;
 }
 
 .dsmovie-form img{
   width: 100%;
-  border-radius: 8px, 8px, 0, 0;
+  border-radius: 8px 8px 0 0;
 }
 
 .dsmovie-form-decription{
@@ -181,13 +191,14 @@ nav a, nav a:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 8px;
 }
 
 .dsmovie-form-decription h3{
   margin-bottom: 25px;
   margin-left: 2px;
   margin-right: 2px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700px;
   text-align: center;
 }
@@ -214,16 +225,18 @@ nav a, nav a:hover{
 }
 
 #dvmovies-pagination-container{
-  padding-top: 15px;
+  padding-top: 5px;
   display: flex;
   justify-content: center;
 }
 
 #dsmovie-pagination-box{
+  margin: 5px;
   display: flex;
   width: 180px;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 #dsmovie-pagination-box p{
@@ -239,7 +252,7 @@ dsmovie-pagination-box button{
   height: 40px;
   border: 2px solid;
   border-color: var(--color-primary);
-  border-radius: 4px;
+  border-radius: 5px;
   background-color: var(--white);
   display: flex;
   justify-content: center;
